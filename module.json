@@ -1,0 +1,38 @@
+{
+    "id": "pf2e-mythic-plus-hero",
+    "title": "Mythic Plus Hero - Alternative Mythic Point UI",
+    "description": "A simple module that will show hero points and mythic points simultaneously on a character.",
+    "authors": [
+        {
+            "name": "Xethik"
+        }
+    ],
+    "version": "0.0.1",
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "14"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.pf2e.json",
+                "compatibility": {
+                    "minimum": "7.1.0"
+                }
+            },
+            {
+                "id": "sf2e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.sf2e.json",
+                "compatibility": {
+                    "minimum": "1.1.0"
+                }
+            }
+        ]
+    }
+}
