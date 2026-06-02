@@ -8,6 +8,10 @@
         }
     ],
     "version": "0.0.1",
+    "url": "https://github.com/Xethik/pf2e-mythic-plus-hero",
+    "readme": "https://github.com/Xethik/pf2e-mythic-plus-hero/blob/master/README.md",
+    "manifest": "https://raw.githubusercontent.com/Xethik/pf2e-mythic-plus-hero/master/module.json",
+    "download": "https://github.com/Xethik/pf2e-mythic-plus-hero/releases/download/0.0.1/module.zip",
     "esmodules": [
         "scripts/main.js"
     ],
